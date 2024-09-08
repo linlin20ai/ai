@@ -271,3 +271,22 @@
 2024/09/07 02:32:19 [notice] 1#1: start worker process 32
 2024/09/07 02:32:19 [notice] 1#1: start worker process 33
 2024/09/07 03:16:04 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ4ZmciLCJleHAiOjE2ODMxMDQ4ODcsImlhdCI6MTY4MzEwNDU4NywianRpIjoiYzg5Y2YyZTQtODdiMy00ZjcyLWE0NTUtNTA4YTVkZjQxMTViIiwidXNlcm5hbWUiOiJ4ZmcifQ.Vy5QTZ8iDzOt-fGd_NKrT_IOBce8mBEx0gV0o0zHfaY"
+2024/09/08 01:53:10 [notice] 1#1: using the "epoll" event method
+2024/09/08 01:53:10 [notice] 1#1: nginx/1.27.1
+2024/09/08 01:53:10 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/08 01:53:10 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/09/08 01:53:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/08 01:53:10 [notice] 1#1: start worker processes
+2024/09/08 01:53:10 [notice] 1#1: start worker process 22
+2024/09/08 01:53:10 [notice] 1#1: start worker process 23
+2024/09/08 01:53:10 [notice] 1#1: start worker process 24
+2024/09/08 01:53:10 [notice] 1#1: start worker process 25
+2024/09/08 01:53:10 [notice] 1#1: start worker process 26
+2024/09/08 01:53:10 [notice] 1#1: start worker process 27
+2024/09/08 01:53:10 [notice] 1#1: start worker process 28
+2024/09/08 01:53:10 [notice] 1#1: start worker process 29
+2024/09/08 01:53:10 [notice] 1#1: start worker process 30
+2024/09/08 01:53:10 [notice] 1#1: start worker process 31
+2024/09/08 01:53:10 [notice] 1#1: start worker process 32
+2024/09/08 01:53:10 [notice] 1#1: start worker process 33
+2024/09/08 02:14:50 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/api/?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ4ZmciLCJleHAiOjE2ODMxMDQ4ODcsImlhdCI6MTY4MzEwNDU4NywianRpIjoiYzg5Y2YyZTQtODdiMy00ZjcyLWE0NTUtNTA4YTVkZjQxMTViIiwidXNlcm5hbWUiOiJ4ZmcifQ.Vy5QTZ8iDzOt-fGd_NKrT_IOBce8mBEx0gV0o0zHfaY"

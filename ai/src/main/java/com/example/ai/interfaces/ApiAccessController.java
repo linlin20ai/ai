@@ -26,6 +26,7 @@ public class ApiAccessController {
 
     /*
     * http://localhost:8080/authorize?username=xfg&password=123
+    * http://207.246.123.150:8080/authorize?username=xfg&password=123
     * */
     @RequestMapping("/authorize")
     public ResponseEntity<Map<String,String>> authorize(String username,String password){
@@ -40,7 +41,7 @@ public class ApiAccessController {
         JwtUtil jwtUtil = new JwtUtil();
         Map<String, Object> chaim = new HashMap<>();
         chaim.put("username",username);
-        String jwtToken = jwtUtil.encode(username,5*60*1000,chaim);
+        String jwtToken = jwtUtil.encode(username,60*60*1000,chaim);
         map.put("msg","授权成功");
         map.put("token",jwtToken);
         //返回token码
