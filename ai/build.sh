@@ -1,1 +1,1 @@
-docker build -f ./Dockerfile -t shengtaolin/ai-api .
+docker build -f ./Dockerfile -t shengtaolin/ai-api: 1.7.

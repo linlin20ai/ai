@@ -40,7 +40,7 @@ public class ApiTest {
         // 1. 配置文件
         Configuration configuration = new Configuration();
         configuration.setApiHost("https://open.bigmodel.cn/");
-        configuration.setApiSecretKey("39580e34e175019c230fdd519817b381.*****");
+        configuration.setApiSecretKey("fc5e11ac2aab8818240689aae6fda84f.e6RpqymAkvlhNEg4");
         configuration.setLevel(HttpLoggingInterceptor.Level.BODY);
         // 2. 会话工厂
         OpenAiSessionFactory factory = new DefaultOpenAiSessionFactory(configuration);
@@ -348,7 +348,7 @@ public class ApiTest {
         // 1. 配置文件
         Configuration configuration = new Configuration();
         configuration.setApiHost("https://open.bigmodel.cn/");
-        configuration.setApiSecretKey("39580e34e175019c230fdd519817b381.*****");
+        configuration.setApiSecretKey("fc5e11ac2aab8818240689aae6fda84f.e6RpqymAkvlhNEg4");
 
         // 2. 获取Token
         String token = BearerTokenUtils.getToken(configuration.getApiKey(), configuration.getApiSecret());

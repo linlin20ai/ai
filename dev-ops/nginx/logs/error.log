@@ -361,3 +361,122 @@
 2024/09/09 11:09:26 [notice] 1#1: start worker process 31
 2024/09/09 11:09:26 [notice] 1#1: start worker process 32
 2024/09/09 11:09:26 [notice] 1#1: start worker process 33
+2024/09/10 11:58:11 [notice] 1#1: using the "epoll" event method
+2024/09/10 11:58:11 [notice] 1#1: nginx/1.27.1
+2024/09/10 11:58:11 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/10 11:58:11 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/09/10 11:58:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/10 11:58:11 [notice] 1#1: start worker processes
+2024/09/10 11:58:11 [notice] 1#1: start worker process 21
+2024/09/10 11:58:11 [notice] 1#1: start worker process 22
+2024/09/10 11:58:11 [notice] 1#1: start worker process 23
+2024/09/10 11:58:11 [notice] 1#1: start worker process 24
+2024/09/10 11:58:11 [notice] 1#1: start worker process 25
+2024/09/10 11:58:11 [notice] 1#1: start worker process 26
+2024/09/10 11:58:11 [notice] 1#1: start worker process 27
+2024/09/10 11:58:11 [notice] 1#1: start worker process 28
+2024/09/10 11:58:11 [notice] 1#1: start worker process 29
+2024/09/10 11:58:11 [notice] 1#1: start worker process 30
+2024/09/10 11:58:11 [notice] 1#1: start worker process 31
+2024/09/10 11:58:11 [notice] 1#1: start worker process 32
+2024/09/11 14:34:33 [notice] 1#1: using the "epoll" event method
+2024/09/11 14:34:33 [notice] 1#1: nginx/1.27.1
+2024/09/11 14:34:33 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/11 14:34:33 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/09/11 14:34:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/11 14:34:33 [notice] 1#1: start worker processes
+2024/09/11 14:34:33 [notice] 1#1: start worker process 22
+2024/09/11 14:34:33 [notice] 1#1: start worker process 23
+2024/09/11 14:34:33 [notice] 1#1: start worker process 24
+2024/09/11 14:34:33 [notice] 1#1: start worker process 25
+2024/09/11 14:34:33 [notice] 1#1: start worker process 26
+2024/09/11 14:34:33 [notice] 1#1: start worker process 27
+2024/09/11 14:34:33 [notice] 1#1: start worker process 28
+2024/09/11 14:34:33 [notice] 1#1: start worker process 29
+2024/09/11 14:34:33 [notice] 1#1: start worker process 30
+2024/09/11 14:34:33 [notice] 1#1: start worker process 31
+2024/09/11 14:34:33 [notice] 1#1: start worker process 32
+2024/09/11 14:34:33 [notice] 1#1: start worker process 33
+2024/09/11 14:35:24 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.167.99", referrer: "http://192.168.167.99/"
+2024/09/11 14:48:07 [error] 24#24: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2024/09/11 14:52:12 [error] 26#26: *5 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "wfrsw7.natappfree.cc", referrer: "http://wfrsw7.natappfree.cc/"
+2024/09/12 04:26:16 [notice] 1#1: using the "epoll" event method
+2024/09/12 04:26:16 [notice] 1#1: nginx/1.27.1
+2024/09/12 04:26:16 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/12 04:26:16 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/09/12 04:26:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/12 04:26:16 [notice] 1#1: start worker processes
+2024/09/12 04:26:16 [notice] 1#1: start worker process 22
+2024/09/12 04:26:16 [notice] 1#1: start worker process 23
+2024/09/12 04:26:16 [notice] 1#1: start worker process 24
+2024/09/12 04:26:16 [notice] 1#1: start worker process 25
+2024/09/12 04:26:16 [notice] 1#1: start worker process 26
+2024/09/12 04:26:16 [notice] 1#1: start worker process 27
+2024/09/12 04:26:16 [notice] 1#1: start worker process 28
+2024/09/12 04:26:16 [notice] 1#1: start worker process 29
+2024/09/12 04:26:16 [notice] 1#1: start worker process 30
+2024/09/12 04:26:16 [notice] 1#1: start worker process 31
+2024/09/12 04:26:16 [notice] 1#1: start worker process 32
+2024/09/12 04:26:16 [notice] 1#1: start worker process 33
+2024/09/12 04:26:17 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "linxxxx.natapp1.cc", referrer: "http://linxxxx.natapp1.cc/"
+2024/09/12 04:26:48 [error] 24#24: *2 open() "/usr/share/nginx/html/wx/portal/wx14d3df93e6e293a6" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /wx/portal/wx14d3df93e6e293a6?signature=60ba9262f7527b5b3d2b01233d552758e8f6c09f&echostr=4837376213706567591&timestamp=1726115207&nonce=108154121 HTTP/1.1", host: "linxxxx.natapp1.cc"
+2024/09/12 04:27:02 [error] 23#23: *3 open() "/usr/share/nginx/html/wx/portal/wx14d3df93e6e293a6" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /wx/portal/wx14d3df93e6e293a6?signature=2133804ccc1e13345a928b22fdfe2d2bf623b2f5&echostr=4136413692473306549&timestamp=1726115221&nonce=393593801 HTTP/1.1", host: "linxxxx.natapp1.cc"
+2024/09/12 04:27:23 [error] 25#25: *4 open() "/usr/share/nginx/html/wx/portal/wx14d3df93e6e293a6" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /wx/portal/wx14d3df93e6e293a6?signature=6d2b2bb0d49493643b27359a76641529a674be57&echostr=7421016406133534187&timestamp=1726115242&nonce=1693414423 HTTP/1.1", host: "linxxxx.natapp1.cc"
+2024/09/12 04:28:33 [error] 27#27: *5 open() "/usr/share/nginx/html/wx/portal/wx14d3df93e6e293a6" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /wx/portal/wx14d3df93e6e293a6?signature=05f8b11a99bdd202a326a016422d6cfef75d4319&echostr=1620524238051966968&timestamp=1726115312&nonce=1241420931 HTTP/1.1", host: "linxxxx.natapp1.cc"
+2024/09/12 04:36:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/12 04:36:33 [notice] 22#22: gracefully shutting down
+2024/09/12 04:36:33 [notice] 25#25: gracefully shutting down
+2024/09/12 04:36:33 [notice] 24#24: gracefully shutting down
+2024/09/12 04:36:33 [notice] 23#23: gracefully shutting down
+2024/09/12 04:36:33 [notice] 26#26: gracefully shutting down
+2024/09/12 04:36:33 [notice] 28#28: gracefully shutting down
+2024/09/12 04:36:33 [notice] 30#30: gracefully shutting down
+2024/09/12 04:36:33 [notice] 27#27: gracefully shutting down
+2024/09/12 04:36:33 [notice] 33#33: gracefully shutting down
+2024/09/12 04:36:33 [notice] 31#31: gracefully shutting down
+2024/09/12 04:36:33 [notice] 32#32: gracefully shutting down
+2024/09/12 04:36:33 [notice] 22#22: exiting
+2024/09/12 04:36:33 [notice] 29#29: gracefully shutting down
+2024/09/12 04:36:33 [notice] 25#25: exiting
+2024/09/12 04:36:33 [notice] 24#24: exiting
+2024/09/12 04:36:33 [notice] 23#23: exiting
+2024/09/12 04:36:33 [notice] 26#26: exiting
+2024/09/12 04:36:33 [notice] 28#28: exiting
+2024/09/12 04:36:33 [notice] 30#30: exiting
+2024/09/12 04:36:33 [notice] 27#27: exiting
+2024/09/12 04:36:33 [notice] 33#33: exiting
+2024/09/12 04:36:33 [notice] 31#31: exiting
+2024/09/12 04:36:33 [notice] 32#32: exiting
+2024/09/12 04:36:33 [notice] 29#29: exiting
+2024/09/12 04:36:33 [notice] 22#22: exit
+2024/09/12 04:36:33 [notice] 24#24: exit
+2024/09/12 04:36:33 [notice] 25#25: exit
+2024/09/12 04:36:33 [notice] 23#23: exit
+2024/09/12 04:36:33 [notice] 26#26: exit
+2024/09/12 04:36:33 [notice] 28#28: exit
+2024/09/12 04:36:33 [notice] 30#30: exit
+2024/09/12 04:36:33 [notice] 27#27: exit
+2024/09/12 04:36:33 [notice] 33#33: exit
+2024/09/12 04:36:33 [notice] 31#31: exit
+2024/09/12 04:36:33 [notice] 32#32: exit
+2024/09/12 04:36:33 [notice] 29#29: exit
+2024/09/12 04:36:33 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/12 04:36:33 [notice] 1#1: worker process 23 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 24 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 26 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 28 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 33 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/12 04:36:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/09/12 04:36:33 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/09/12 04:36:33 [notice] 1#1: worker process 25 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 27 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 30 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 32 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/12 04:36:33 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/09/12 04:36:33 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/09/12 04:36:33 [notice] 1#1: worker process 22 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 29 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: worker process 31 exited with code 0
+2024/09/12 04:36:33 [notice] 1#1: exit

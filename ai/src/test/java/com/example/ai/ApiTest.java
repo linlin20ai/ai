@@ -49,7 +49,7 @@ class ApiTest {
 
         try {
             // 如果你有自己的apihost、apikey也可以替换使用。
-            HttpPost httpPost = new HttpPost("https://service-d6wuqy4n-1320869466.cd.apigw.tencentcs.com/v1/chat/completions");
+            HttpPost httpPost = new HttpPost("http://open.bigmodel.cn/api/paas/v3/model-api/chatglm_lite/sse-invoke?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ4ZmciLCJleHAiOjE3MjU5NzMxODcsImlhdCI6MTcyNTk2OTU4NywianRpIjoiOGM1M2MzYzAtYzllNC00M2NkLTg4MjItYzU4MmM2ZGEwYzEwIiwidXNlcm5hbWUiOiJ4ZmcifQ.y-9IRh6LBInreYpNHVhhOUQqVTyZejrXQ0oZoFlyxvI");
             String json = "{\n" +
                     "    \"model\": \"gpt-3.5-turbo-1106\",\n" +
                     "    \"max_tokens\": 1024,\n" +
@@ -68,7 +68,7 @@ class ApiTest {
             StringEntity requestEntity = new StringEntity(json, ContentType.APPLICATION_JSON);
 
             httpPost.setEntity(requestEntity);
-            httpPost.setHeader("Authorization", "Bearer 阅读链接评论置顶第一条获取key https://t.zsxq.com/163o5FKvc");
+            httpPost.setHeader("Authorization", "Bearer fc5e11ac2aab8818240689aae6fda84f.e6RpqymAkvlhNEg4");
             httpPost.setHeader("Content-Type", "application/json");
 
             HttpResponse response = httpClient.execute(httpPost);
