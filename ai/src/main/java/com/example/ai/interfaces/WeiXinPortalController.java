@@ -184,7 +184,7 @@ public class WeiXinPortalController {
         taskExecutor.execute(() -> {
             // 入参；模型、请求信息；记得更新最新版 ChatGLM-SDK-Java
             ChatCompletionRequest request = new ChatCompletionRequest();
-            request.setModel(Model.GLM_3_5_TURBO); // chatGLM_6b_SSE、chatglm_lite、chatglm_lite_32k、chatglm_std、chatglm_pro
+            request.setModel(Model.GLM_4); // chatGLM_6b_SSE、chatglm_lite、chatglm_lite_32k、chatglm_std、chatglm_pro
             request.setPrompt(new ArrayList<ChatCompletionRequest.Prompt>() {
                 private static final long serialVersionUID = -7988151926241837899L;
 
